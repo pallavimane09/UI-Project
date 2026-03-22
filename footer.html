@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    background-color: #111; /* Dark background */
+    color: #fff;
+    padding-top: 60px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}
+
+/* Orange Brand Card */
+.brand-col {
+    margin-top: -100px; /* Overlaps previous section */
+}
+
+.brand-card {
+    background-color: #e67e22;
+    padding: 40px;
+    text-align: center;
+    border: 8px solid rgba(255,255,255,0.1);
+}
+
+.brand-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Headers */
+h3 {
+    color: #e67e22;
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+/* Lists and Links */
+ul {
+    list-style: none;
+}
+
+.contact-info li, .links li {
+    margin-bottom: 12px;
+    color: #bbb;
+}
+
+.links a {
+    color: #bbb;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.links a:hover {
+    color: #e67e22;
+    padding-left: 5px;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.social-box {
+    background-color: #e67e22;
+    color: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* Newsletter */
+.newsletter-form {
+    display: flex;
+    margin-top: 20px;
+}
+
+.newsletter-form input {
+    padding: 12px;
+    border: none;
+    flex: 1;
+}
+
+.newsletter-form button {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+/* Bottom Bar */
+.footer-bottom {
+    text-align: center;
+    padding: 25px 0;
+    border-top: 1px solid #222;
+    margin-top: 30px;
+    font-size: 14px;
+    color: #bbb;
+}
+
+.footer-bottom a {
+    color: #e67e22;
+    text-decoration: none;
+}
+
+    </style>
+</head>
+<body><footer class="footer-container">
+    <div class="footer-content">
+        <!-- Brand Section -->
+        <div class="footer-col brand-col">
+            <div class="brand-card">
+                <h2 class="brand-title"><i class="icon-cake"></i> CAKEZONE</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at porttitor sem. Aliquam erat volutpat. Donec id elit non mi porta gravida at eget metus.</p>
+            </div>
+        </div>
+
+        <!-- Get In Touch Section -->
+        <div class="footer-col">
+            <h3>GET IN TOUCH</h3>
+            <ul class="contact-info">
+                <li><span class="icon">📍</span> 123 Street, New York, USA</li>
+                <li><span class="icon">✉️</span> info@example.com</li>
+                <li><span class="icon">📞</span> +012 345 67890</li>
+            </ul>
+            <div class="social-icons">
+                <a href="#" class="social-box">f</a>
+                <a href="#" class="social-box">t</a>
+                <a href="#" class="social-box">in</a>
+            </div>
+        </div>
+
+        <!-- Quick Links Section -->
+        <div class="footer-col">
+            <h3>QUICK LINKS</h3>
+            <ul class="links">
+                <li><a href="#">→ Home</a></li>
+                <li><a href="#">→ About Us</a></li>
+                <li><a href="#">→ Our Services</a></li>
+                <li><a href="#">→ Meet The Team</a></li>
+                <li><a href="#">→ Latest Blog</a></li>
+                <li><a href="#">→ Contact Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Newsletter Section -->
+        <div class="footer-col">
+            <h3>NEWSLETTER</h3>
+            <p>Amet justo diam dolor rebum lorem sit stet sea justo kasd</p>
+            <div class="newsletter-form">
+                <input type="email" placeholder="Your Email">
+                <button type="submit">Sign Up</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>© <a href="#">Your Site Name</a>. All Rights Reserved. Designed by <a href="#">HTML Codex</a></p>
+    </div>
+</footer>
+</body>
+</html>
